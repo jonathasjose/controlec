@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    
+	<RelativeLayout
+        android:id="@+id/LinearLayoutCompras"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:layout_width="fill_parent">
+        
+        <ImageView
+            android:focusable="false"
+            android:id="@+id/imageViewAguardando"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="5sp"
+            android:layout_marginRight="5sp"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/ic_timer" />
+        
+        <TextView
+            android:id="@+id/textViewDataCompra"
+            android:layout_height="wrap_content"
+            android:layout_width="270sp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:textSize="22sp"
+            android:paddingLeft="20dp"
+            android:textStyle="normal" />
+
+  </RelativeLayout>
+  
+  <RelativeLayout
+       android:id="@+id/LinearLayoutCompras2"
+       android:layout_height="wrap_content"
+       android:layout_width="fill_parent"
+       android:layout_marginBottom="5dp">
+       
+       <TextView
+            android:textColor="#969696"
+            android:id="@+id/textViewCompraDescricao"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:paddingLeft="20dp"
+            android:textSize="14sp"
+            android:textStyle="normal" />
+  </RelativeLayout>
+	
+</LinearLayout>

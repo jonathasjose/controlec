@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:focusable="true" 
+    android:focusableInTouchMode="true" >
+	
+    <TableLayout
+        android:layout_height="40sp"
+        android:background="#F0FFF0"
+        android:layout_width="fill_parent">
+        
+		    
+		    <TextView 
+		        android:id="@+id/textViewCabecalhoFinalizarCompra"
+				android:gravity="center|left"
+		        android:layout_marginLeft="12sp"
+		        android:textStyle="bold"
+		        android:textSize="20sp"
+		        android:text="@string/finalizar_compra"
+		        android:layout_height="fill_parent"
+		        android:layout_width="wrap_content" />
+    
+    </TableLayout>
+    
+    <View 
+        android:id="@+id/viewResumoCompra" 
+        android:layout_width="wrap_content" 
+        android:background="#009900" 
+        android:layout_height="2sp" />
+   
+   <TableLayout
+        android:layout_height="40sp"
+        android:layout_marginTop="14sp"
+        android:layout_marginLeft="15sp"
+        android:layout_width="fill_parent">
+        
+       	<TableRow
+       	    android:layout_marginTop="6sp"
+       	    android:layout_width="fill_parent"
+       	    android:gravity="left">
+			<TextView 
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:textSize="18sp"
+		        android:text="@string/valor_compra"/> 
+		         
+			<EditText
+			    android:id="@+id/editTextValorProduto"
+			    android:background="@layout/edit_text_sem_borda"
+			    android:layout_width="190sp"
+			    android:layout_height="wrap_content"
+		        android:inputType="numberDecimal"
+			    android:hint="@string/valor"
+			    android:layout_marginLeft="6sp"
+			    android:textSize="22sp"
+			    android:textStyle="bold"
+			    android:textColorHint="#cccccc" />
+  
+	    </TableRow>
+    
+    </TableLayout>
+    
+    <View 
+        android:id="@+id/viewValorCompra" 
+        android:layout_width="wrap_content" 
+        android:background="#f5f5f5" 
+        android:layout_height="1sp" />
+
+    <TableLayout
+        android:layout_height="40sp"
+        android:layout_margin="6sp"
+        android:layout_width="fill_parent">
+        
+       	<TableRow
+       	    android:layout_marginTop="6sp"
+       	    android:gravity="left">
+			<RadioGroup 
+			    android:id="@+id/radioGMercado"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:orientation="horizontal" >
+		       	
+			    <RadioButton 
+			        android:paddingLeft="46sp"
+			        android:onClick="definirMercado"
+			        android:id="@+id/radioBMercado"
+			        android:textSize="18sp"
+			        android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="@string/definir_mercado"/>  
+					
+			</RadioGroup>
+	    </TableRow>
+	    
+       	<TextView 
+       	    android:layout_marginLeft="10sp"
+       	    android:textSize="18sp"
+       	    android:id="@+id/textViewLocalCompra"
+       	    android:visibility="gone"
+       	    android:layout_width="fill_parent"
+       	    android:layout_height="match_parent"/>
+    
+    </TableLayout>
+    
+    <View 
+        android:id="@+id/viewLocalCompra" 
+        android:layout_width="wrap_content" 
+        android:background="#f5f5f5" 
+        android:layout_height="1sp" />
+    
+    <TableLayout
+        android:id="@+id/tableRowObservacoes"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6sp"
+        android:layout_marginLeft="12sp"
+        android:layout_width="fill_parent">
+			
+  	    <EditText 
+  	        android:id="@+id/editTextObservacoesMercado"
+ 	        android:gravity="top|left"
+ 	        android:background="@layout/edit_text_sem_borda"
+ 	        android:inputType="textMultiLine"
+ 	        android:layout_width="310sp"
+ 	        android:layout_height="wrap_content"
+ 	        android:hint="@string/observacoes"
+ 	        android:textColor="#000000"
+ 	        android:textColorHint="#cccccc"
+ 	        android:singleLine="false"
+ 	        android:lines="2" />
+       	        
+    </TableLayout>
+    
+    <Button 
+        android:onClick="finalizarCompra"
+        android:layout_width="fill_parent"
+        android:layout_marginTop="15sp"
+        android:textSize="18sp"
+        android:layout_height="wrap_content"
+        android:text="@string/salvar"
+        android:id="@+id/btFinalizarCompra" />
+    
+    <View 
+        android:id="@+id/viewFinalizar04" 
+        android:layout_width="wrap_content" 
+        android:background="#009900" 
+        android:layout_height="2sp" />
+    
+    <TableLayout
+        android:layout_height="40sp"
+        android:background="#F0FFF0"
+        android:layout_width="fill_parent">
+        
+		    <TextView 
+		        android:id="@+id/textViewProdutosFinalizar"
+		        android:gravity="center|left"
+		        android:layout_marginLeft="12sp"
+		        android:textStyle="bold"
+		        android:textSize="18sp"
+		        android:text="@string/produtos_compra"
+		        android:layout_height="match_parent"
+		        android:layout_width="fill_parent" />
+    </TableLayout>
+    
+   <View 
+        android:id="@+id/viewFinalizar04" 
+        android:layout_width="wrap_content" 
+        android:background="#009900" 
+        android:layout_height="2sp" />
+   	
+   	<ListView
+   	    android:id="@+id/listViewProdutos"
+   	    android:layout_width="fill_parent"
+   	    android:layout_height="match_parent"
+   	    />
+    
+
+    
+</LinearLayout>

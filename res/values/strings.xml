@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">Controle de Compras</string>
+	
+    <!-- Generic -->
+    <string name="pesquisar">Pesquisar</string>
+    <string name="adicionar">Adicionar</string>
+    <string name="adicionar_local">Adicionar local</string>
+    <string name="r_valor_produto">R$ valor produto</string>
+    <string name="nome_produto">Nome produto</string>
+    <string name="unidade">Unidade</string>
+    <string name="quantidade">Quantidade</string>
+    <string name="qtde">Qtde</string>
+    <string name="editar">Editar</string>
+    <string name="excluir">Excluir</string>
+    <string name="opcoes">Opções</string>
+    <string name="info_deseja_realmente_excluir">Deseja realmente excluir?</string>
+    <string name="info_deseja_realmente_finalizar">Deseja realmente finalizar esta compra?</string>
+    <string name="sim">Sim</string>
+    <string name="cancel">Cancelar</string>
+    <string name="salvar">Salvar</string>
+    <string name="ok">OK</string>
+    <string name="rs">R$</string>
+    <string name="carrinho_compras">Carrinho de Compras</string>
+    <string name="compras">Compras</string>
+    <string name="carrinho">Carrinho</string>
+    <string name="observacoes">Observações</string>
+    <string name="valor">Valor</string>
+    <string name="local_compra">Local compra</string>
+    <string name="nao_definido">Não definido</string>
+    <string name="resumo_produtos">Resumo dos produtos</string>
+    <string name="produtos_compra">Produtos da compra</string>
+    <string name="produtos_selecionados">Produtos selecionados</string>
+
+    
+    <!-- list compras -->
+    <string name="btn_criar_lista">Criar nova lista de compra</string>
+    <string name="compra_nao_finalizada">Compra não finalizada</string>
+    
+    <!-- list produtos -->
+	<string name="menuoptions_vis_sel">Visualizar produtos selecionados</string>
+    <string name="menuoptions_vis_all_produtos">Visualizar todos produtos</string>
+    <string name="menuoptions_gerar_compra">Gerar compra</string>
+    <string name="menuoptions_atualizar_lista_compra">Atualizar lista de compra</string>
+    <string name="msg_validacao_necessario_pelo_menos_produto">É necessário pelo menos 1 produto</string> 
+    <string name="cadastrar_produto">Cadastrar produto</string>
+    <string name="atualizar_produto">Atualizar Produto</string>
+    <string name="info_toque_para_inserir_qtde">Toque para inserir quantidade</string>
+     
+    <!-- cadastro de produto -->
+    <string name="msg_validacao_nome_produto_invalido">O nome do produto é inválido</string>
+    <string name="msg_validacao_e_nessario_escolher_categoria">É necessário escolher uma categoria</string>
+    <string name="msg_validacao_produto_ja_esta_vinculado_compra">O produto já esta vinculado a uma Compra</string>
+    
+    <!-- check lista compra -->
+    <string name="detalhes_produto">Detalhes do produto</string>
+    <string name="mais_qtde">(R$) Manual</string>
+    <string name="info_pressione_inserir_valor">Pressione para mais opções</string>
+    <string name="info_toque_mais_opcoes">Toque para mais opções</string>
+    <string name="info_deseja_realmente_excluir_produto_carrinho">Deseja mesmo remover o produto do carrinho?</string>
+    
+    <!-- Finalizar compra -->
+    <string name="adicionar_produto">Adicionar Produto</string>
+    <string name="finalizar_compra">Finalizar compra</string>
+    <string name="valor_compra">Valor compra (R$):</string>
+    <string name="rs_compra">R$ Compra</string>
+    <string name="definir_mercado">Local da compa</string>
+    <string name="resumo_compra">Resumo da compra</string>
+    <string name="visualizar_compra">Visualizar Compra</string>
+    <string name="visualizar_produtos_compra">Visualizar produtos da compra</string>
+    <string name="msg_validacao_nome_mercado_nulo">Nome do local inválido</string>
+    <string name="msg_validacao_nome_duplicado">Local de compra já existe</string>
+    <string name="msg_validacao_compra_sem_valor">A compra deve ter um valor</string>
+    <string name="msg_validacao_existem_itens_pendentes_carrinho">Exitem itens pendentes no seu carrinho de compras</string>
+</resources>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    
+  <TableLayout
+      android:background="#F0FFF0"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      >
+      
+      <TableRow>
+          
+          <ImageView 
+              android:onClick="loadProdutos"
+              android:layout_margin="5sp"
+              android:src="@drawable/ic_launcher"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"/>
+          
+          <TextView 
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center"
+              android:textSize="20sp"
+              android:textStyle="bold"
+              android:layout_marginLeft="6sp"
+              android:text="@string/app_name"/>
+          
+          <ImageView 
+              android:onClick="showPopup"
+              android:layout_marginLeft="8sp"
+              android:layout_gravity="center|right"
+              android:src="@drawable/ic_menu_more"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"/>
+          
+      </TableRow>
+      
+  </TableLayout>
+  
+ 	<View 
+        android:id="@+id/View01" 
+        android:layout_width="wrap_content" 
+        android:background="#009900" 
+        android:layout_height="2sp"
+        android:layout_marginBottom="10sp" />
+	
+	<ListView 
+	    android:id="@+id/listViewCompras"
+	    android:layout_height="fill_parent"
+	    android:layout_width="fill_parent"	    
+	    />
+	
+</LinearLayout>

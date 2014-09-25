@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+	
+   <TableLayout
+      android:background="#F0FFF0"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:visibility="gone"
+      android:id="@+id/tableLCabecalhoProduto">
+      
+      <TableRow>
+          
+          <ImageView 
+              android:layout_margin="5sp"
+              android:src="@drawable/ic_launcher"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"/>
+          
+          <TextView 
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center"
+              android:textSize="20sp"
+              android:textStyle="bold"
+              android:layout_marginLeft="6sp"
+              android:text="@string/produtos_selecionados"/>
+          
+      </TableRow>
+      
+  </TableLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#F0FFF0" >
+
+   	  		<EditText
+				 android:id="@+id/editTextPesquisar"
+				 android:textSize="20sp"
+				 android:singleLine="true"
+				 android:background="@layout/edit_text_filter"
+				 android:hint="@string/pesquisar"
+				 android:layout_height="wrap_content"
+				 android:layout_width="wrap_content"
+				 android:layout_gravity="left"
+				 android:layout_weight="10" />
+			
+			<ImageView
+			    android:id="@+id/botaoAdicionarProduto"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_gravity="center_vertical"
+			    android:layout_weight="1"
+			    android:layout_margin="0dp"
+			    android:onClick="cadastrarProduto"
+			    android:src="@drawable/ic_add" />
+
+	</LinearLayout>
+	
+	 <View 
+        android:id="@+id/View01" 
+        android:layout_width="wrap_content" 
+        android:background="#009900" 
+        android:layout_height="2sp" />
+	
+	<ListView 
+	    android:id="@+id/listViewProdutos"
+	    android:layout_height="fill_parent"
+	    android:layout_width="fill_parent" />
+    
+</LinearLayout>
