@@ -3,5 +3,6 @@ encoding//assets/categoria.csv=ISO-8859-1
 encoding//assets/produtos.csv=ISO-8859-1
 encoding//src/first/app/controlofbuy/activities/CompraActivity.java=UTF-8
 encoding//src/first/app/controlofbuy/activities/FinalizarCompraActivity.java=UTF-8
+encoding//src/first/app/controlofbuy/activities/HomeActivity.java=UTF-8
 encoding//src/first/app/controlofbuy/helpers/StringUtils.java=UTF-8
 encoding/<project>=ISO-8859-1

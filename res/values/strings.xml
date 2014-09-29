@@ -31,10 +31,16 @@
     <string name="produtos_compra">Produtos da compra</string>
     <string name="produtos_selecionados">Produtos selecionados</string>
 
+    <!-- home -->
+    <string name="btn_home">Home</string>
+    <string name="btn_nova_compra">Nova Compra</string>
+    <string name="btn_visualizar_listas">Visualizar Listas</string>
+   	<string name="btn_visualizar_relatorios">Visualizar Relatórios</string>
     
     <!-- list compras -->
     <string name="btn_criar_lista">Criar nova lista de compra</string>
     <string name="compra_nao_finalizada">Compra não finalizada</string>
+    <string name="btn_sobre">Informações</string>
     
     <!-- list produtos -->
 	<string name="menuoptions_vis_sel">Visualizar produtos selecionados</string>

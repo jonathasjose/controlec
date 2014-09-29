@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    
+  <TableLayout
+      android:background="#F0FFF0"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      >
+      
+     <TableRow>
+          
+          <ImageView 
+              android:layout_margin="5sp"
+              android:src="@drawable/ic_launcher"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"/>
+          
+          <TextView 
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center"
+              android:textSize="20sp"
+              android:textStyle="bold"
+              android:layout_marginLeft="6sp"
+              android:text="@string/app_name"/>
+          
+      </TableRow>
+      
+  	</TableLayout>
+ 	<View 
+        android:id="@+id/View01" 
+        android:layout_width="wrap_content" 
+        android:background="#009900" 
+        android:layout_height="2sp"
+        android:layout_marginBottom="10sp" />
+ 	
+ 	<ImageView 
+ 	    android:onClick="novaListaCompras"
+		android:layout_marginTop="20sp"
+        android:src="@drawable/bag"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+ 	<TextView 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+        android:layout_gravity="center"
+	    android:textSize="14sp"
+	    android:textStyle="bold"
+	    android:text="@string/btn_nova_compra"/>
+ 	
+ 	<ImageView 
+ 	    android:onClick="visualizarListaCompras"
+		android:layout_marginTop="20sp"
+        android:src="@drawable/list"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+ 	<TextView 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+        android:layout_gravity="center"
+	    android:textSize="14sp"
+	    android:textStyle="bold"
+	    android:text="@string/btn_visualizar_listas"/>    
+
+ 	<ImageView 
+ 	    android:onClick="visualizarRelatorios"
+		android:layout_marginTop="20sp"
+        android:src="@drawable/report"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+ 	<TextView 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+        android:layout_gravity="center"
+	    android:textSize="14sp"
+	    android:textStyle="bold"
+	    android:text="@string/btn_visualizar_relatorios"/>
+ 
+<TableLayout
+      android:background="#F0FFF0"
+      android:layout_marginTop="30sp"
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent"
+      >
+
+
+        <View
+            android:id="@+id/View02"
+            android:layout_width="wrap_content"
+            android:layout_height="2sp"
+            android:layout_marginBottom="10sp"
+            android:background="#009900" />
+
+</TableLayout>
+ 	
+</LinearLayout>
